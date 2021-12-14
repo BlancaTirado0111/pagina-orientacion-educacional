@@ -1,0 +1,25 @@
+@font-face{
+    font-family: 'museomoderno';
+    src:url(../proyecto_final/fonts/static/MuseoModerno-Light.ttf);
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "museomoderno", Arial;
+}
+
+    body{
+        background-color:#2ec4b6;
+    }
+  h1{
+    font-size: 40px;
+    color: ivory;
+    text-align:center;
+  }
+  iframe{
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+     
+      box-shadow: 1px 2px 10px #05668d;
+  }

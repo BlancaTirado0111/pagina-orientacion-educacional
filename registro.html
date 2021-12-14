@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrate</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+  
+    <form action="procesar incidencia.php" method="post">
+        <fieldset>
+        <legend>Datos del interesado/a:</legend>
+        <label for="nombre_usuario" > Usuario: </label>
+        <br>
+        <input type="text" name="campo_de_texto" >
+        <br>
+        <br>
+        <label for="nombre_usuario">Dudas frecuentes</label>
+        <br>
+        <select name="lista_de_seleccion">
+        <option value="opcion1">Antecedentes hereditarios</option>
+        <option value="opcion2">Problemas en el lenguaje</option>
+        <option value="opcion3">Problemas en la casa</option>
+        <option value="opcion3">Problemas en la Escuela</option>
+        
+        </select>
+        <br>
+        <br>
+        <label for="nombre_usuario" >Descripcion: </label>
+        <br>
+        <textarea name="area_de_texto" rows="3" cols="40">describa el problema....</textarea>
+        <br>
+        <br>
+        <label for="clave_usuario" >Contraseña: </label>
+        <br>
+        <input type="password" name="clave" id="clave_usuario">
+         <br><br>
+        <input type="submit" value="Enviar datos">
+        </fieldset>
+        <fieldset>
+        <legend>Enviar tus datos</legend>
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+        </fieldset>
+        </form>
+       
+        <footer>
+            <nav class="info"> 
+                <a href="index.html">Programa de Orientación Educativa para Familias</a>
+             </nav>
+        </footer>   
+</body>
+</html> 
